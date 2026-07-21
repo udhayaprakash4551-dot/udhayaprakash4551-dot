@@ -1,0 +1,19 @@
+<svg width="100%" viewBox="0 0 1000 6" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#7A3B14"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6A00" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="2" y="2" fill="url(#baseGrad)"/>
+  <rect width="220" height="2" y="2" fill="url(#glowGrad)">
+    <animate attributeName="x" values="-220;1000;-220" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
